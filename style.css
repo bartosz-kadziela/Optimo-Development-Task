@@ -49,6 +49,12 @@ body {
     transform: rotate(45deg);
 }
 
+/*Styling of div2*/
+.div2 {
+    display: flex;
+    flex-direction: row;
+}
+
 /*Styling of line1*/
 .line1 {
     width:160px;
