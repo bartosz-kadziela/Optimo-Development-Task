@@ -51,8 +51,8 @@ body {
     margin-top: 150px;
 }
 
-/*Styling of linemain*/
-.linemain {
+/*Styling of main-line*/
+.main-line {
     display: flex;
     flex-direction: column;
 }
@@ -74,8 +74,8 @@ body {
     background-color:blue;
 }
 
-/*Styling of maincircle*/
-.maincircle {
+/*Styling of main-circle*/
+.main-circle {
     display: flex; 
     flex-direction: column; 
 }
