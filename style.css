@@ -34,7 +34,7 @@ body {
     width: 160px;
     height: 160px;
     margin: 40px 0px 0px 200px;
-    border: 2px solid black;
+    border: 3px solid black;
     background-color: red;
     transform:rotate(45deg);
 }
@@ -44,7 +44,7 @@ body {
     width: 160px;
     height: 160px;
     margin-left: 38px;
-    border: 2px solid black;
+    border: 3px solid black;
     background-color: red;
     transform: rotate(45deg);
 }
@@ -53,39 +53,48 @@ body {
 .div2 {
     display: flex;
     flex-direction: row;
+    margin: 50px 0px 0px 200px;
 }
 
 /*Styling of linemain*/
-
 .linemain {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /*Styling of line1*/
 .line1 {
     width:160px;
     height:20px;
-    border: 2px solid black;
+    border: 3px solid black;
     background-color:blue;
-    margin: 40px 0px 0px 0px;
+    margin: 0px 0px 60px 0px;
 }
 
 /*Styling of line2*/
 .line2 {
     width:160px;
     height:20px;
-    border: 2px solid black;
+    border: 3px solid black;
     background-color:blue;
 }
 
-/*Styling of circle*/
+/*Styling of maincircle*/
+.maincircle {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
 
+/*Styling of circle*/
 .circle {
     width: 160px;
     height: 160px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 9999px;
     background-color: rgb(33, 149, 138);
     margin: 0px 0px 0px 40px;
+    justify-content: center;
+    align-items: center;
 }
