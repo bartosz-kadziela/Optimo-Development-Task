@@ -1,14 +1,16 @@
+/*Styling of html*/
 html {
     width: 100%;
     height: 100%;
 }
 
+/*Styling of body*/
 body {
     width: 100%;
     height: 100%;
     margin: 0;
 }
-
+/*Styling of navigation*/
 .navigation {
     width: 100%;
     height: 38px;
