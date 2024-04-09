@@ -55,6 +55,13 @@ body {
     flex-direction: row;
 }
 
+/*Styling of linemain*/
+
+.linemain {
+    display: flex;
+    flex-direction: column;
+}
+
 /*Styling of line1*/
 .line1 {
     width:160px;
@@ -70,4 +77,15 @@ body {
     height:20px;
     border: 2px solid black;
     background-color:blue;
+}
+
+/*Styling of circle*/
+
+.circle {
+    width: 160px;
+    height: 160px;
+    border: 2px solid black;
+    border-radius: 9999px;
+    background-color: rgb(33, 149, 138);
+    margin: 0px 0px 0px 40px;
 }
