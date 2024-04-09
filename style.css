@@ -10,10 +10,17 @@ body {
     height: 100%;
     margin: 0;
 }
+
 /*Styling of navigation*/
 .navigation {
     width: 100%;
     height: 38px;
     border: 2px solid black;
     background-color: rgba(112, 125, 33, 0.987);
+}
+
+/*Styling of container*/
+.container {
+    display: flex;
+    flex-direction: row;
 }
