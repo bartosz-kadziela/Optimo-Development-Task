@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     margin: 0;
-    border: 6px solid black;
+    border: 8px solid black;
     overflow: hidden;
     background-color: green;
 }
@@ -10,9 +10,9 @@ body {
 /*Styling of navigation*/
 .navigation {
     width: 100%;
-    height: 38px;
+    height: 76px;
     border: solid black;
-    border-width: 0px 0px 6px 0px;
+    border-width: 0px 0px 8px 0px;
     background-color: rgba(112, 125, 33, 0.987);
 }
 
@@ -26,20 +26,20 @@ body {
 
 /*Styling of square1*/
 .square1 {
-    width: 160px;
-    height: 160px;
-    margin: 40px 0px 0px 200px;
-    border: 3px solid black;
+    width: 130px;
+    height: 130px;
+    margin: 32px 0px 0px 176px;
+    border: 4px solid black;
     background-color: red;
     transform: rotate(45deg);
 }
 
 /*Styling of square2*/
 .square2 {
-    width: 160px;
-    height: 160px;
-    margin-left: 38px;
-    border: 3px solid black;
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+    border: 4px solid black;
     background-color: red;
     transform: rotate(45deg);
 }
@@ -48,7 +48,7 @@ body {
 .div2 {
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 122px;
 }
 
 /*Styling of main-line*/
@@ -59,18 +59,18 @@ body {
 
 /*Styling of line1*/
 .line1 {
-    width: 160px;
-    height: 20px;
-    border: 3px solid black;
+    width: 130px;
+    height: 14px;
+    border: 4px solid black;
     background-color: blue;
-    margin: 25px 0px 60px 0px;
+    margin: 17px 0px 40px 0px;
 }
 
 /*Styling of line2*/
 .line2 {
-    width: 160px;
-    height: 20px;
-    border: 3px solid black;
+    width: 130px;
+    height: 14px;
+    border: 4px solid black;
     background-color: blue;
 }
 
@@ -82,12 +82,12 @@ body {
 
 /*Styling of circle*/
 .circle {
-    width: 160px;
-    height: 160px;
-    border: 3px solid black;
+    width: 110px;
+    height: 110px;
+    border: 4px solid black;
     border-radius: 9999px;
     background-color: rgb(33, 149, 138);
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 30px;
 }
 
 /*Styling of div3*/
@@ -98,17 +98,17 @@ body {
 
 /*Styling of rectangle*/
 .rectangle {
-    width: 300px;
-    height: 800px;
-    border: 3px solid black;
+    width: 240px;
+    height: 740px;
+    border: 4px solid black;
     background-color: white ;
-    margin: 30px 30px 30px 0px;
+    margin: 48px 30px 48px 0px;
 }
 
 /*Styling of ABC*/
 .ABC {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100px;
+    font-size: 68px;
     margin-top: 0;
 }
