@@ -45,6 +45,12 @@ body {
     transform: rotate(45deg);
 }
 
+/*Hover animation for square1 and square2*/
+.square1:hover, .square2:hover {
+    border-radius: 30px;
+    transition: all 1s ease 0s;
+}
+
 /*Styling of div2*/
 .div2 {
     display: flex;
@@ -91,6 +97,17 @@ body {
     border-radius: 9999px;
     background-color: rgb(33, 149, 138);
     margin-left: 30px;
+}
+
+/*Hover animation for .circle*/
+.circle:hover {
+    animation-name: new-color;
+    animation-duration: 3s;
+}
+
+@keyframes new-color {
+    from {background-color:rgb(33, 149, 138)}
+    to {background-color:rgb(46, 241, 222)}
 }
 
 /*Styling of rectangle*/
