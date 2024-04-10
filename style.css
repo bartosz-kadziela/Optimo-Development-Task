@@ -39,7 +39,7 @@ body {
 .square2 {
     width: 130px;
     height: 130px;
-    margin-left: 30px;
+    margin-left: 34px;
     border: 4px solid black;
     background-color: red;
     transform: rotate(45deg);
@@ -91,25 +91,87 @@ body {
     margin-left: 30px;
 }
 
-/*Styling of div3*/
-.div3 {
-    display: flex; 
-    flex-direction: column; 
-}
-
 /*Styling of rectangle*/
 .rectangle {
-    width: 240px;
-    height: 740px;
+   
+    height: 78vh;
     border: 4px solid black;
     background-color: white ;
-    margin: 40px 30px 40px 0px;
+    margin: 50px 30px 40px 0px; 
 }
 
 /*Styling of ABC*/
 .ABC {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 68px;
-    margin-top: 0;
+    margin: 20px 60px 0px 60px;
+}
+
+/*For screens <= 582px*/
+@media screen and (max-width: 582px) {
+    
+    .navigation {
+        height: 58px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+   .div1 {
+        width: 28%;
+        height: 28vh;
+    }
+
+    .square1 {
+        width: 100px;
+        height: 100px;
+        margin: 25px 0px 0px 140px;
+    }
+    
+    .square2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 34px;
+    }
+
+    .div2 {
+        margin-top: 66px;
+    }
+
+    .circle {
+        width: 85px;
+        height: 85px;
+        border: 4px solid black;
+        margin-left: 23px;
+    }
+
+    .line1 {
+        width: 100px;
+        height: 11px;
+        margin: 6px 0px 40px 10px;
+    }
+    
+    .line2 {
+        width: 100px;
+        height: 11px;
+        margin-left: 10px;
+    }
+
+    .rectangle {
+        width: 160px;
+        height: 41vh;
+        margin: 26px 15px 0px 50px;
+        background-color: blue;
+
+    }
+
+    .ABC {
+        text-align: center;
+        font-size: 48px;
+        margin: 20px 0px 0px 0px;
+    }
 }
